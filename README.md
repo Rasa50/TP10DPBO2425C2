@@ -31,29 +31,7 @@ Proyek ini tidak menggunakan framework bawaan (seperti Laravel/CI), melainkan me
 
 ### 2. Struktur Folder
 
-/project
-├── config/
-│ └── Database.php # Koneksi DB (Singleton Pattern)
-├── Model/ # Class Entity (Data Structure)
-│ ├── User.php
-│ ├── Field.php
-│ ├── Booking.php
-│ └── Review.php
-├── View/ # User Interface (HTML/PHP)
-│ ├── Booking View/
-│ ├── Field View/
-│ ├── Home View/
-│ ├── Review View/
-│ ├── User View/
-│ └── Templates/ # Header & Footer
-├── ViewModel/ # Business Logic & Data Access
-│ ├── BookingViewModel.php
-│ ├── FieldViewModel.php
-│ ├── ReviewViewModel.php
-│ ├── UserViewModel.php
-│ └── DataBinder.php # Helper untuk mapping $\_POST ke Object Model
-├── index.php # Main Entry Point (Routing Logic)
-└── README.md
+![Struktur](Dokumentasi/StrukturFolder.png)
 
 ## Alur Program
 
